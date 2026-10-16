@@ -82,7 +82,7 @@ Untitled.ipynb
 
 6. It will take 10-15 minutes for the pipeline to complete.
 
-<img width="505" height="292" alt="image" src="https://github.com/user-attachments/assets/3ae1691f-b180-46db-988b-e9b560cf7003" />
+<img width="749" height="298" alt="image" src="https://github.com/user-attachments/assets/195f14b5-edd7-4884-bb6d-0556a10a4627" />
 
 Rejoice in those 5 green ticks:
 
