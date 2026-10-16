@@ -82,6 +82,11 @@ Untitled.ipynb
 
 6. It will take 10-15 minutes for the pipeline to complete.
 
+<img width="505" height="292" alt="image" src="https://github.com/user-attachments/assets/3ae1691f-b180-46db-988b-e9b560cf7003" />
+
+Rejoice in those 5 green ticks:
+
+<img width="1036" height="717" alt="image" src="https://github.com/user-attachments/assets/f8516d23-6411-4428-9b2d-be173b9ff71d" />
 
 ## Phase 2: Reflect on the Ethics of this Pipeline
 
