@@ -13,16 +13,32 @@ This is the first workshop of the Level 6 AI/ML Engineer programme. Read it toge
 
 2. Navigate to the Amazon SageMaker AI service in the AWS environment. (Note that Amazon SageMaker AI was formerly named Amazon SageMaker. The latter is still available in the search in AWS Console, but you will only receive a notice of the name change if you navigate there. You should use the former.)
 
+<img width="719" height="262" alt="image" src="https://github.com/user-attachments/assets/da505a15-dd07-4fd7-b47c-4d964e9e7983" />
+
 > **Amazon SageMaker AI** is a fully managed service from AWS that simplifies the process of building, training, and deploying machine learning (ML) models at scale. It provides an integrated development environment, pre-built algorithms, automated model tuning, and tools for data preparation, monitoring, and governance, making it easier for developers and data scientists to create production-ready AI solutions.
 
 3. Click "Studio" under "Applications and IDEs" on the left.
+
+<img width="431" height="428" alt="image" src="https://github.com/user-attachments/assets/e65c28b6-9d69-4b21-aa00-6ab1dcb7aaa4" />
+
 4. Click "Open Studio", which will open SageMaker Studio in a new tab.
+
+<img width="362" height="154" alt="image" src="https://github.com/user-attachments/assets/87fc253d-86ff-4138-911f-94fd35c75ab2" />
+
 5. Select JupyterLab from the icons on the left. Create a new JupyterLab Space by clicking the "Create JupyterLab space" button.
+
+<img width="1878" height="259" alt="image" src="https://github.com/user-attachments/assets/6db621ef-72c5-4fc5-bd29-31208c896cc7" />
 
 > **JupyterLab** is an open-source web-based interactive development environment for working with notebooks, code, and data. It supports multiple programming languages (like Python, R, and Julia) and provides a flexible interface for data science, machine learning, and scientific computing workflows.
 
 6. Name your JupyterLab e.g. `QuickLoan` and click "Create space".
+
+<img width="696" height="348" alt="image" src="https://github.com/user-attachments/assets/4928eff1-6f6b-4d9c-aeca-92190cb66e7e" />
+
 7. Open your JupyterLab space by clicking "Run space". This can take a minute or so. (Pay attention to the notification at the bottom of the screen, which will give you a time estimate for completion.)
+
+<img width="332" height="226" alt="image" src="https://github.com/user-attachments/assets/343cbdba-29e1-43db-a186-0c08924bc1a3" />
+
 8. Once the space is ready, click "Open JupyterLab".
 
 ### 2. Upload the Code (and a copy of the data)
