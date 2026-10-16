@@ -41,6 +41,8 @@ This is the first workshop of the Level 6 AI/ML Engineer programme. Read it toge
 
 8. Once the space is ready, click "Open JupyterLab".
 
+<img width="468" height="215" alt="image" src="https://github.com/user-attachments/assets/026ea295-dbd9-451d-aaf2-6590849216da" />
+
 ### 2. Upload the Code (and a copy of the data)
 
 1. Using the file browser on the left, upload the *deploy_pipeline.py* script and the *src* folder (with its contents) from the GitHub repository into your JupyterLab environment.
