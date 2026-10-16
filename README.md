@@ -46,12 +46,16 @@ This is the first workshop of the Level 6 AI/ML Engineer programme. Read it toge
 ### 2. Upload the Code (and a copy of the data)
 
 1. Using the file browser on the left, upload the *deploy_pipeline.py* script and the *src* folder (with its contents) from the GitHub repository into your JupyterLab environment.
-2. Upload a copy of the *cs-training.csv* file from the *AI6-Workshop-1-PDE/data* directory here as well, so that it's in the top-level folder (not in *src* but adjacent to it).
+2. Upload a copy of the *cs-training.csv* file from the *ai6_workshop-1/data* directory here as well, so that it's in the top-level folder (not in *src* but adjacent to it).
 
+<img width="291" height="527" alt="image" src="https://github.com/user-attachments/assets/a6c4561a-49d0-4f11-a166-c234a7c3239e" />
 
 ### 3. Create and Run a Notebook
 
 1. In the JupyterLab menu, click the "Python 3 (ipykernel)" button under the "Notebook" heading in the Launcher tab, *or* click File -> New -> Notebook. Select the default Python 3 kernel.
+
+<img width="271" height="250" alt="image" src="https://github.com/user-attachments/assets/d31ab687-93dc-4a40-a2a2-74db6f60d703" />
+
 2. A new .ipynb notebook will open. It's important that this has opened at the top level (i.e. adjacent to the *src* folder, *not* within it), otherwise subsequent commands won't work. Your folder structure should look like this:
 
 ```
@@ -64,9 +68,18 @@ deploy_pipeline.py
 Untitled.ipynb
 ```
 
-3. In the first cell of the notebook, type the following command that executes your script: `!python deploy_pipeline.py`. (You could alternatively run this from a new Terminal, if you're feeling adventurous!)
+3. In the first cell of the notebook, type the following commands to ensure the right sagemaker version and to execute your script:
+```
+!pip install "sagemaker>=2.0, <3.0"
+!python deploy_pipeline.py
+```
+(You could alternatively run this from a new Terminal, if you're feeling adventurous!)
+
 4. Click the "Run" button (a ▶ play icon) in the notebook toolbar to execute the cell.
 5. You will see the script's output directly in the notebook. While it's still running, you can navigate to SageMaker Studio -> Pipelines, then click through to your pipeline, and finally through to a specific execution of that pipeline, or order to see the visual graph of your pipeline running.
+
+<img width="853" height="427" alt="image" src="https://github.com/user-attachments/assets/0a05f566-f026-4419-9cb6-839af7b0cea5" />
+
 6. It will take 10-15 minutes for the pipeline to complete.
 
 
